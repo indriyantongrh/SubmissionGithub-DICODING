@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="@color/colordark"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvRepository"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivAvatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:civ_border_width="2dp"
+        android:src="@drawable/avatar"
+        app:civ_border_color="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/tvNameUser"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/ivAvatar"
+        android:text="Nama"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvFollowers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNameUser"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/ivAvatar"
+        android:ellipsize="end"
+        android:text="0"
+        android:textColor="@color/colorWhite"
+        android:maxLines="3" />
+
+    <TextView
+        android:id="@+id/textFollowers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNameUser"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/tvFollowers"
+        android:ellipsize="end"
+        android:text="Followers"
+        android:textColor="@color/colorWhite"
+        android:maxLines="3" />
+
+    <TextView
+        android:id="@+id/tvFollowing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNameUser"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/textFollowers"
+        android:ellipsize="end"
+        android:text="0"
+        android:textColor="@color/colorWhite"
+        android:maxLines="3" />
+
+    <TextView
+        android:id="@+id/textFollowing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNameUser"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/tvFollowing"
+        android:ellipsize="end"
+        android:text="Following"
+        android:textColor="@color/colorWhite"
+        android:maxLines="3" />
+
+
+
+</RelativeLayout>

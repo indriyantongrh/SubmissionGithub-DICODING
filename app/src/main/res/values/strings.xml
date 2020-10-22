@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Submission1-DICODING</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+
+    <string-array name="data_name">
+        <item>Gilang Chandrasa</item>
+        <item>Mahmudin muttaqin</item>
+        <item>Edwin Kurnia Rahman</item>
+        <item>Mahrus Khomaini</item>
+        <item>AHmad Saugi</item>
+        <item>Muhamad Ari Sawali</item>
+        <item>Eko Kurniawan Khannedy</item>
+        <item>Adhy Wiranata P</item>
+        <item>Indriyanto Nugroho</item>
+        <item>Ahmad Muhardian</item>
+    </string-array>
+
+    <array name="data_photo">
+        <item>@drawable/gilangchandrasa</item>
+        <item>@drawable/mahmudinmuttaqin</item>
+        <item>@drawable/edwin</item>
+        <item>@drawable/mahrus</item>
+        <item>@drawable/ahmadsugi</item>
+        <item>@drawable/muhammadari</item>
+        <item>@drawable/ekokurniawan</item>
+        <item>@drawable/adhywiranata</item>
+        <item>@drawable/indriyantongrh</item>
+        <item>@drawable/ahmadmuhardini</item>
+    </array>
+
+
+
+    <string-array name="data_followers">
+        <item>93</item>
+        <item>61</item>
+        <item>4</item>
+        <item>3</item>
+        <item>161</item>
+        <item>35</item>
+        <item>644</item>
+        <item>116</item>
+        <item>0</item>
+        <item>353</item>
+    </string-array>
+
+    <string-array name="data_following">
+        <item>11</item>
+        <item>186</item>
+        <item>0</item>
+        <item>110</item>
+        <item>15</item>
+        <item>18</item>
+        <item>0</item>
+        <item>45</item>
+        <item>2</item>
+        <item>325</item>
+    </string-array>
+
+    <string-array name="data_username">
+        <item>gchandrasa</item>
+        <item>mahmudinm</item>
+        <item>EDWNKR</item>
+        <item>mahruskh</item>
+        <item>zuramai</item>
+        <item>arisawali2014</item>
+        <item>khannedy</item>
+        <item>adhywiranata</item>
+        <item>indriyantongrh</item>
+        <item>ardianta</item>
+    </string-array>
+
+    <string-array name="data_repository">
+        <item>https://github.com/gchandrasa</item>
+        <item>https://github.com/mahmudinm</item>
+        <item>https://github.com/EDWNKR</item>
+        <item>https://github.com/mahruskh</item>
+        <item>https://github.com/zuramai</item>
+        <item>https://github.com/arisawali2014</item>
+        <item>https://github.com/khannedy</item>
+        <item>https://github.com/adhywiranata</item>
+        <item>https://github.com/indriyantongrh</item>
+        <item>https://github.com/ardianta</item>
+    </string-array>
+
+    <string-array name="data_lokasi">
+        <item>Jakarta</item>
+        <item>Tangerang</item>
+        <item>Semarang</item>
+        <item>Malang</item>
+        <item>Indonesia</item>
+        <item>Bandung</item>
+        <item>Jakarta</item>
+        <item>Jakarta</item>
+        <item>Jakarta</item>
+        <item>Lombok</item>
+    </string-array>
+
+
+</resources>
