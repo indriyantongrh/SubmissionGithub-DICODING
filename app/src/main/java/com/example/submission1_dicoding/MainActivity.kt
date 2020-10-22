@@ -4,8 +4,12 @@ import android.content.Intent
 import android.content.res.TypedArray
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.AdapterView
 import android.widget.ListView
+import android.widget.ProgressBar
+import androidx.core.view.isGone
+import androidx.core.view.isVisible
 import com.example.submission1_dicoding.Adapter.AdapterUser
 import com.example.submission1_dicoding.Model.ModelGithub
 
@@ -24,6 +28,7 @@ class MainActivity : AppCompatActivity() {
     private var GithubUser = arrayListOf<ModelGithub>()
 
     private lateinit var listUser: ListView
+    private lateinit var progressBar: ProgressBar
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
