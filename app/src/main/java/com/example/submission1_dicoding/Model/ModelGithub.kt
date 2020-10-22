@@ -4,21 +4,23 @@ import android.os.Parcel
 import android.os.Parcelable
 
 /**
- * Created by Indriyantongrh on 12/10/20.
+ * Created by Indriyantongrh on 22/10/20.
  */
+data class ModelGithub(
 
-data class ModelUser(
-
-    var photo: Int,
+    var avatar: Int,
     var name: String?,
-    var followers: String?,
-    var following: String?,
     var username: String?,
     var location: String?,
-    var repository: String?
-) : Parcelable {
+    var repository: String?,
+    var followers: String?,
+    var following: String?,
+    var company: String?
+
+): Parcelable {
     constructor(parcel: Parcel) : this(
         parcel.readInt(),
+        parcel.readString(),
         parcel.readString(),
         parcel.readString(),
         parcel.readString(),
@@ -29,25 +31,26 @@ data class ModelUser(
     }
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
-        parcel.writeInt(photo)
+        parcel.writeInt(avatar)
         parcel.writeString(name)
-        parcel.writeString(followers)
-        parcel.writeString(following)
         parcel.writeString(username)
         parcel.writeString(location)
         parcel.writeString(repository)
+        parcel.writeString(followers)
+        parcel.writeString(following)
+        parcel.writeString(company)
     }
 
     override fun describeContents(): Int {
         return 0
     }
 
-    companion object CREATOR : Parcelable.Creator<ModelUser> {
-        override fun createFromParcel(parcel: Parcel): ModelUser {
-            return ModelUser(parcel)
+    companion object CREATOR : Parcelable.Creator<ModelGithub> {
+        override fun createFromParcel(parcel: Parcel): ModelGithub {
+            return ModelGithub(parcel)
         }
 
-        override fun newArray(size: Int): Array<ModelUser?> {
+        override fun newArray(size: Int): Array<ModelGithub?> {
             return arrayOfNulls(size)
         }
     }

@@ -5,98 +5,111 @@
     <string name="followers">Followers</string>
     <string name="following">Following</string>
 
-    <string-array name="data_name">
-        <item>Gilang Chandrasa</item>
-        <item>Mahmudin muttaqin</item>
-        <item>Edwin Kurnia Rahman</item>
-        <item>Mahrus Khomaini</item>
-        <item>AHmad Saugi</item>
-        <item>Muhamad Ari Sawali</item>
-        <item>Eko Kurniawan Khannedy</item>
-        <item>Adhy Wiranata P</item>
-        <item>Indriyanto Nugroho</item>
-        <item>Ahmad Muhardian</item>
+
+
+
+    <string-array name="username">
+        <item>JakeWharton</item>
+        <item>amitshekhariitbhu</item>
+        <item>romainguy</item>
+        <item>chrisbanes</item>
+        <item>tipsy</item>
+        <item>ravi8x</item>
+        <item>jasoet</item>
+        <item>budioktaviyan</item>
+        <item>hendisantika</item>
+        <item>sidiqpermana</item>
     </string-array>
 
-    <array name="data_photo">
-        <item>@drawable/gilangchandrasa</item>
-        <item>@drawable/mahmudinmuttaqin</item>
-        <item>@drawable/edwin</item>
-        <item>@drawable/mahrus</item>
-        <item>@drawable/ahmadsugi</item>
-        <item>@drawable/muhammadari</item>
-        <item>@drawable/ekokurniawan</item>
-        <item>@drawable/adhywiranata</item>
-        <item>@drawable/indriyantongrh</item>
-        <item>@drawable/ahmadmuhardini</item>
-    </array>
-
-
-
-    <string-array name="data_followers">
-        <item>93</item>
-        <item>61</item>
-        <item>4</item>
-        <item>3</item>
-        <item>161</item>
-        <item>35</item>
-        <item>644</item>
-        <item>116</item>
-        <item>0</item>
-        <item>353</item>
+    <string-array name="name">
+        <item>Jake Wharton</item>
+        <item>Amit Shekhar</item>
+        <item>Romain Guy</item>
+        <item>Chris Banes</item>
+        <item>David</item>
+        <item>Ravi Tamada</item>
+        <item>Deny Prasetyo</item>
+        <item>Budi Oktaviyan</item>
+        <item>Hendi Santika</item>
+        <item>Sidiq Permana</item>
     </string-array>
 
-    <string-array name="data_following">
-        <item>11</item>
-        <item>186</item>
-        <item>0</item>
+    <string-array name="location">
+        <item>Pittsburgh, PA, USA</item>
+        <item>New Delhi, India</item>
+        <item>California</item>
+        <item>Sydney, Australia</item>
+        <item>Trondheim, Norway</item>
+        <item>India</item>
+        <item>Kotagede, Yogyakarta, Indonesia</item>
+        <item>Jakarta, Indonesia</item>
+        <item>Bojongsoang - Bandung Jawa Barat</item>
+        <item>Jakarta Indonesia</item>
+    </string-array>
+
+    <string-array name="repository">
+        <item>102</item>
+        <item>37</item>
+        <item>9</item>
+        <item>30</item>
+        <item>56</item>
+        <item>28</item>
+        <item>44</item>
         <item>110</item>
-        <item>15</item>
-        <item>18</item>
-        <item>0</item>
-        <item>45</item>
+        <item>1064</item>
+        <item>65</item>
+    </string-array>
+
+    <string-array name="company">
+        <item>Google, Inc.</item>
+        <item>MindOrksOpenSource</item>
+        <item>Google</item>
+        <item>Google working on @android</item>
+        <item>Working Group Two</item>
+        <item>AndroidHive | Droid5</item>
+        <item>gojek-engineering</item>
+        <item>KotlinID</item>
+        <item>JVMDeveloperID @KotlinID @IDDevOps</item>
+        <item>Nusantara Beta Studio</item>
+    </string-array>
+
+    <string-array name="followers">
+        <item>56995</item>
+        <item>5153</item>
+        <item>7972</item>
+        <item>14725</item>
+        <item>788</item>
+        <item>18628</item>
+        <item>277</item>
+        <item>178</item>
+        <item>428</item>
+        <item>465</item>
+    </string-array>
+
+    <string-array name="following">
+        <item>12</item>
         <item>2</item>
-        <item>325</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>3</item>
+        <item>39</item>
+        <item>23</item>
+        <item>61</item>
+        <item>10</item>
     </string-array>
 
-    <string-array name="data_username">
-        <item>gchandrasa</item>
-        <item>mahmudinm</item>
-        <item>EDWNKR</item>
-        <item>mahruskh</item>
-        <item>zuramai</item>
-        <item>arisawali2014</item>
-        <item>khannedy</item>
-        <item>adhywiranata</item>
-        <item>indriyantongrh</item>
-        <item>ardianta</item>
+    <string-array name="avatar">
+        <item>@drawable/user1</item>
+        <item>@drawable/user2</item>
+        <item>@drawable/user3</item>
+        <item>@drawable/user4</item>
+        <item>@drawable/user5</item>
+        <item>@drawable/user6</item>
+        <item>@drawable/user7</item>
+        <item>@drawable/user8</item>
+        <item>@drawable/user9</item>
+        <item>@drawable/user10</item>
     </string-array>
-
-    <string-array name="data_repository">
-        <item>https://github.com/gchandrasa</item>
-        <item>https://github.com/mahmudinm</item>
-        <item>https://github.com/EDWNKR</item>
-        <item>https://github.com/mahruskh</item>
-        <item>https://github.com/zuramai</item>
-        <item>https://github.com/arisawali2014</item>
-        <item>https://github.com/khannedy</item>
-        <item>https://github.com/adhywiranata</item>
-        <item>https://github.com/indriyantongrh</item>
-        <item>https://github.com/ardianta</item>
-    </string-array>
-
-    <string-array name="data_lokasi">
-        <item>Jakarta</item>
-        <item>Tangerang</item>
-        <item>Semarang</item>
-        <item>Malang</item>
-        <item>Indonesia</item>
-        <item>Bandung</item>
-        <item>Jakarta</item>
-        <item>Jakarta</item>
-        <item>Jakarta</item>
-        <item>Lombok</item>
-    </string-array>
-
 
 </resources>

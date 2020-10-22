@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
-import com.example.submission1_dicoding.Model.ModelUser
+import com.example.submission1_dicoding.Model.ModelGithub
 import com.example.submission1_dicoding.R
 
 
@@ -17,7 +17,7 @@ import com.example.submission1_dicoding.R
  */
 class AdapterUser internal constructor(private val context: Context) : BaseAdapter() {
 
-    internal var userGithub = arrayListOf<ModelUser>()
+    internal var userGithub = arrayListOf<ModelGithub>()
 
 
 
@@ -40,7 +40,7 @@ class AdapterUser internal constructor(private val context: Context) : BaseAdapt
         }
 
         val viewHolder = ViewHolder(itemView as View)
-        val User = getItem(position) as ModelUser
+        val User = getItem(position) as ModelGithub
         viewHolder.bind(User)
 
         return  itemView
@@ -58,11 +58,11 @@ class ViewHolder(view: View) {
 
 
 
-    fun bind(user: ModelUser) {
+    fun bind(user: ModelGithub) {
         tvNameUser.text =user.name
         tvFollowers.text =user.followers
         tvFollowing.text = user.following
-        ivAvatar.setImageResource(user.photo)
+        ivAvatar.setImageResource(user.avatar)
 
     }
 

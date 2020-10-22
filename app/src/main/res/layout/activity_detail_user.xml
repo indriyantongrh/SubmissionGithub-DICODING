@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/colordark"
+    android:orientation="vertical"
     tools:context=".DetailUser">
 
     <LinearLayout
@@ -61,8 +61,8 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:gravity="center"
                             android:layout_marginTop="5dp"
+                            android:gravity="center"
                             android:orientation="horizontal">
 
                             <LinearLayout
@@ -77,18 +77,17 @@
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
                                     android:text="0"
-                                    android:textStyle="bold"
                                     android:textSize="15sp"
-                                    />
+                                    android:textStyle="bold" />
 
                                 <TextView
                                     android:id="@+id/textFollowers"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
-                                    android:textStyle="bold"
                                     android:text="  Followers"
-                                    android:textSize="15sp" />
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
                             </LinearLayout>
 
                             <LinearLayout
@@ -103,60 +102,100 @@
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
                                     android:text="0"
-                                    android:textStyle="bold"
-                                    android:textSize="15sp" />
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
 
                                 <TextView
                                     android:id="@+id/textFollowing"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
-                                    android:textStyle="bold"
                                     android:text="  Following"
-                                    android:textSize="15sp" />
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
                             </LinearLayout>
                         </LinearLayout>
 
                         <LinearLayout
+                            android:layout_marginTop="5dp"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:orientation="horizontal">
 
-                            <ImageView
-                                android:layout_width="15dp"
-                                android:layout_height="15dp"
-                                android:src="@drawable/place_marker" />
-
-                            <TextView
-                                android:id="@+id/tvLocation"
-                                android:layout_width="wrap_content"
+                            <LinearLayout
+                                android:gravity="left"
+                                android:layout_marginStart="90dp"
+                                android:layout_marginEnd="90dp"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:text="Location"
-                                android:textSize="14sp" />
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_marginStart="15dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="15dp"
+                                        android:layout_height="15dp"
+                                        android:src="@drawable/place_marker" />
+
+                                    <TextView
+                                        android:id="@+id/tvLocation"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="Location"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_marginStart="15dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="15dp"
+                                        android:layout_height="15dp"
+                                        android:src="@drawable/companyicon" />
+
+                                    <TextView
+                                        android:id="@+id/tvCompany"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:text="Company"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_marginStart="15dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="15dp"
+                                        android:layout_height="15dp"
+                                        android:src="@drawable/githubicon" />
+
+                                    <TextView
+                                        android:id="@+id/tvRepository"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:autoLink="web"
+                                        android:gravity="center"
+                                        android:text="Repository"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                            </LinearLayout>
                         </LinearLayout>
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:orientation="horizontal">
 
-                            <ImageView
-                                android:layout_width="15dp"
-                                android:layout_height="15dp"
-                                android:src="@drawable/linkicon" />
-
-                            <TextView
-                                android:id="@+id/tvRepository"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:text="Repository"
-                                android:autoLink="web"
-                                android:textSize="14sp" />
-                        </LinearLayout>
 
                     </LinearLayout>
 

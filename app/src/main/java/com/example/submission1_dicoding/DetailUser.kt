@@ -3,6 +3,7 @@ package com.example.submission1_dicoding
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 
@@ -14,6 +15,7 @@ class DetailUser : AppCompatActivity() {
         const val photo = "photo"
         const val username = "username"
         const val repository = "repository"
+        const val company = "company"
         const val location = "location"
     }
 
@@ -32,6 +34,7 @@ class DetailUser : AppCompatActivity() {
         val tvFollowing: TextView = findViewById(R.id.tvFollowing)
         val tvLocation: TextView = findViewById(R.id.tvLocation)
         val tvRepository: TextView = findViewById(R.id.tvRepository)
+        val tvCompany: TextView = findViewById(R.id.tvCompany)
         val ivAvatar: ImageView = findViewById(R.id.ivAvatar)
 
         val gambar = intent.getIntExtra(photo, 0)
@@ -41,13 +44,15 @@ class DetailUser : AppCompatActivity() {
         val locationUser  = intent.getStringExtra(location)
         val repositoryUser  = intent.getStringExtra(repository)
         val usernameUser  = intent.getStringExtra(username)
+        val CompanyUser  = intent.getStringExtra(company)
 
         tvNameUser.setText(nameUsers)
         tvUsername.setText(usernameUser)
         tvFollowers.setText(followersUser)
         tvFollowing.setText(followingsUser)
         tvLocation.setText(locationUser)
-        tvRepository.setText(repositoryUser)
+        tvRepository.setText(repositoryUser +" Repositories")
+        tvCompany.setText(CompanyUser)
         Glide.with(this)
             .load(gambar)
             .into(ivAvatar);
