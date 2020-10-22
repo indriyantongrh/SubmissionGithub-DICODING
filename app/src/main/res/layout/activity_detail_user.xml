@@ -177,8 +177,8 @@
                     android:layout_height="100dp"
                     android:elevation="0dp"
                     android:src="@drawable/avatar"
-                    app:civ_border_color="@color/colorBlack"
-                    app:civ_border_width="1dp" />
+                    app:civ_border_color="@color/colorWhite"
+                    app:civ_border_width="1.5dp" />
             </RelativeLayout>
         </FrameLayout>
     </LinearLayout>
