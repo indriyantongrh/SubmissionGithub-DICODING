@@ -146,7 +146,6 @@
                                         android:id="@+id/tvLocation"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:gravity="center"
                                         android:text="Location"
                                         android:textSize="14sp" />
                                 </LinearLayout>
@@ -166,7 +165,6 @@
                                         android:id="@+id/tvCompany"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:gravity="center"
                                         android:text="Company"
                                         android:textSize="14sp" />
                                 </LinearLayout>
